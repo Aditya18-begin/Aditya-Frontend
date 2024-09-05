@@ -1,0 +1,96 @@
+*{
+    font-family: 'gilroy';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(115, 138, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* #score-bar{ */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100px;
+    width: 100%;
+    background-color: rgb(66, 95, 66);
+} */
+#score-det{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(66, 95, 66);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22vw;
+    gap: 1vw;
+}
+.score{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    /* padding:2vh 3vw; */
+    gap: 0.5vw;
+    
+}
+.elem{
+   /* height: 30px;
+   width: 20%; */
+   color: rgb(67, 102, 67);
+   background-color: white;
+   /* display: flex; */
+   /* align-items: center;
+   justify-content: center; */
+   font-weight: 700;
+   font-size: 1.5vw;
+   padding: 0.5vh 0.5vw;
+   border-radius: 5px;
+}
+h2{
+    color: white;
+}
+#rand-num{
+    height: calc(100% - 100px);
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: rgb(255, 155, 127); */
+    padding: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+#bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(74, 114, 74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2.8vh;
+    margin: 0.64vh;
+}
+#bubble:hover{
+    cursor: pointer;
+}
